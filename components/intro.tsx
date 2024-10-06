@@ -31,13 +31,13 @@ export default function Intro() {
             }}
           >
             <Image
-              src="https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?fit=crop&w=368&h=368&q=100"
-              alt="Ricardo portrait"
+              src="/me4.png"
+              alt="John Rene portrait"
               width="192"
               height="192"
               quality="95"
               priority={true}
-              className="h-24 w-24 rounded-full object-cover border-[0.35rem] border-white shadow-xl"
+              className="h-24 w-24 rounded-full object-cover border-[0.35rem] border-white shadow-xl transform scale-300"
             />
           </motion.div>
         </div>
@@ -50,7 +50,7 @@ export default function Intro() {
       >
         <span className="font-bold">Hello, I'm John.</span> I'm a tech aficionado, and a{" "}
         <span className="font-bold">Java developer. I have been programming </span>{" "}
-        <span className="font-bold">since I was 17. </span> I enjoy
+        <span className="font-bold">since I was just 17. </span> I enjoy
         building <span className="italic">sites & apps</span>. My focus is in{" "}
         <span className="underline">React (Next.js), Java and Python</span>.
       </motion.h1>
@@ -86,7 +86,7 @@ export default function Intro() {
 
         <a
           className="bg-white p-4 text-gray-700 hover:text-gray-950 flex items-center gap-2 rounded-full focus:scale-[1.15] hover:scale-[1.15] active:scale-105 transition cursor-pointer borderBlack dark:bg-white/10 dark:text-white/60"
-          href="https://linkedin.com"
+          href="https://www.linkedin.com/in/john-valenzuela-550439131/"
           target="_blank"
         >
           <BsLinkedin />
@@ -94,7 +94,7 @@ export default function Intro() {
 
         <a
           className="bg-white p-4 text-gray-700 flex items-center gap-2 text-[1.35rem] rounded-full focus:scale-[1.15] hover:scale-[1.15] hover:text-gray-950 active:scale-105 transition cursor-pointer borderBlack dark:bg-white/10 dark:text-white/60"
-          href="https://github.com"
+          href="https://github.com/john-rene"
           target="_blank"
         >
           <FaGithubSquare />
