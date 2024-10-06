@@ -35,28 +35,28 @@ export const links = [
 
 export const experiencesData = [
   {
-    title: "Graduated bootcamp",
-    location: "Miami, FL",
+    title: "Finished Harvard CS50",
+    location: "Madeira Beach, FL",
     description:
-      "I graduated after 6 months of studying. I immediately found a job as a front-end developer.",
-    icon: React.createElement(LuGraduationCap),
-    date: "2019",
-  },
-  {
-    title: "Front-End Developer",
-    location: "Orlando, FL",
-    description:
-      "I worked as a front-end developer for 2 years in 1 job and 1 year in another job. I also upskilled to the full stack.",
+      "I finished the Harvard course after 4 months of studying. I immediately got to work on my website after starting it.",
     icon: React.createElement(CgWorkAlt),
-    date: "2019 - 2021",
+    date: "2018",
   },
   {
-    title: "Full-Stack Developer",
-    location: "Houston, TX",
+    title: "Full-Stack Website Project",
+    location: "Seminole, FL",
     description:
-      "I'm now a full-stack developer working as a freelancer. My stack includes React, Next.js, TypeScript, Tailwind, Prisma and MongoDB. I'm open to full-time opportunities.",
-    icon: React.createElement(FaReact),
-    date: "2021 - present",
+      "I build my first website at the age of 18 used APIs to find out the most popular songs in every english speaking country.",
+    icon: React.createElement(CgWorkAlt),
+    date: "2019 - 2020",
+  },
+  {
+    title: "After a several year construction hiatus I saved up enough money to attend WGU and get a Computer Science Degree",
+    location: "Seminole, FL",
+    description:
+      "I'm now a competent junior full-stack developer working as a freelancer. My stack includes React, Next.js, TypeScript, Tailwind, Prisma and MongoDB. I'm open to full-time opportunities.",
+    icon: React.createElement(LuGraduationCap),
+    date: "2023 - present",
   },
 ] as const;
 
@@ -64,14 +64,14 @@ export const projectsData = [
   {
     title: "CorpComment",
     description:
-      "I worked as a full-stack developer on this startup project for 2 years. Users can give public feedback to companies.",
+      "A fullstack startup project. Users can give public feedback to companies.",
     tags: ["React", "Next.js", "MongoDB", "Tailwind", "Prisma"],
     imageUrl: corpcommentImg,
   },
   {
     title: "rmtDev",
     description:
-      "Job board for remote developer jobs. I was the front-end developer. It has features like filtering, sorting and pagination.",
+      "Job board for remote developer jobs. It has features like filtering, sorting and pagination.",
     tags: ["React", "TypeScript", "Next.js", "Tailwind", "Redux"],
     imageUrl: rmtdevImg,
   },
@@ -104,4 +104,6 @@ export const skillsData = [
   "Python",
   "Django",
   "Framer Motion",
+  "Java",
+  "Python"
 ] as const;
